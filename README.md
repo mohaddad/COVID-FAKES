@@ -20,4 +20,27 @@ Bilingual (Arabic/English) COVID-19 Twitter dataset for misleading information d
 -For generalization, we are reporting the obtained class of each Tweet with each of the 7 feature extraction techniques (Term Frequency (TF), Term Frequency Inverse Document Frequency (TF-IDF)-(unigram, bigram, trigram, N-gram, character level), and Word Embedding), for each of the used 13 machine learning algorithms (Decision Tree (DT), k-Nearest Neighbor (kNN), Logistic Regression (LR), Linear Support Vector Machines (LSVM), Multinomial Naive Bayes (MNB), Bernoulli Naive Bayes (BNB), Perceptron, Neural Network (NN), Ensemble Random Forest (ERF), Extreme Gradient Boosting (XGBoost), Bagging Meta-Estimator (BME), AdaBoost, and Gradient Boosting (GB)).
 
 
-*This dataset was introduced in: (Mohamed K. Elhadad, Kin Fun Li, and Fayez Gebali,"COVID-19-FAKES: A Twitter (Arabic/English) Dataset for Detecting Misleading Information on COVID-19,"Advances in Intelligent Networking and Collaborative Systems - The 12th International Conference on Intelligent Networking and Collaborative Systems (INCoS-2020)", Springer, 2020)
+
+-The dataset consists of 31  ".CSV" files.
+
+-Each file contains 100,000 TweetId and their corresponding classes.
+
+-The techniques are as follows:
+      C1: Decision Trees.                      C2: Multinomial Naive Bayes.
+      C3: Bernoulli Naive Bayes.               C4: Logistic Regression.
+      C5: k-Nearest Neighbors.                 C6: Perceptron.
+      C7: Multilayer Perceptron.               C8: Linear SVM.
+      C9: Random Forest.                       C10: Bagging meta-estimator.
+      C11: XGBoost.                            C12: AdaBoost.
+      C11: Gradient Boosting (GBM).
+      
+-The used Feature Extraction Techniques are as follows:
+      1: Term Frequency (TF).                                                       2: Term Frequency Inverse Document Frequency (TF-IDF) - unigram.
+      3: Term Frequency Inverse Document Frequency (TF-IDF) - bigram.               4: Term Frequency Inverse Document Frequency (TF-IDF) - trigram.
+      5: Term Frequency Inverse Document Frequency (TF-IDF) - N-gram.               6: Term Frequency Inverse Document Frequency (TF-IDF) - character level.
+      7: Word Embedding.
+
+
+-The column title indicates the technique used for assigning the corresponding class label (e.g., "C1_1---->Decision Trees using Term Frequency (TF)", "C4_7---->Logistic Regression using Word Embedding"). 
+
+*This dataset was introduced in: (Mohamed K. Elhadad, Kin Fun Li, and Fayez Gebali, "COVID-19-FAKES: A Twitter (Arabic/English) Dataset for Detecting Misleading Information on COVID-19, "Advances in Intelligent Networking and Collaborative Systems - The 12th International Conference on Intelligent Networking and Collaborative Systems (INCoS-2020)", Springer, 2020).
