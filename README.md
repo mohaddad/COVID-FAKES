@@ -21,7 +21,7 @@ Bilingual (Arabic/English) COVID-19 Twitter dataset for misleading information d
 
 
 
--The dataset consists of 31  ".CSV" files.
+-The English part of the dataset consists of 31  ".CSV" files.
 
 -Each file contains 100,000 TweetId and their corresponding classes.
 
