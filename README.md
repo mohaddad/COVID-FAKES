@@ -32,7 +32,7 @@ Bilingual (Arabic/English) COVID-19 Twitter dataset for misleading information d
       C7: Multilayer Perceptron.               C8: Linear SVM.
       C9: Random Forest.                       C10: Bagging meta-estimator.
       C11: XGBoost.                            C12: AdaBoost.
-      C11: Gradient Boosting (GBM).
+      C13: Gradient Boosting (GBM).
       
 -The used Feature Extraction Techniques are as follows:
       1: Term Frequency (TF).                                                       2: Term Frequency Inverse Document Frequency (TF-IDF) - unigram.
