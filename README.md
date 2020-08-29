@@ -43,4 +43,4 @@ Bilingual (Arabic/English) COVID-19 Twitter dataset for misleading information d
 
       -The column title indicates the technique used for assigning the corresponding class label (e.g., "C1_1---->Decision Trees using Term Frequency (TF)", "C4_7---->Logistic Regression using Word Embedding"). 
 
-*This dataset was introduced in: (Mohamed K. Elhadad, Kin Fun Li, and Fayez Gebali, "COVID-19-FAKES: A Twitter (Arabic/English) Dataset for Detecting Misleading Information on COVID-19, "Advances in Intelligent Networking and Collaborative Systems - The 12th International Conference on Intelligent Networking and Collaborative Systems (INCoS-2020)", Springer, 2020).
+*This dataset was introduced in: (Mohamed K. Elhadad, Kin Fun Li, and Fayez Gebali, "COVID-19-FAKES: A Twitter (Arabic/English) Dataset for Detecting Misleading Information on COVID-19, "Advances in Intelligent Networking and Collaborative Systems - The 12th International Conference on Intelligent Networking and Collaborative Systems (INCoS-2020)", Springer, 2020. (https://doi.org/10.1007/978-3-030-57796-4_25)
